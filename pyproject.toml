@@ -7,7 +7,7 @@ requires-python = ">=3.8"
 dependencies = [
     "fiona>=1.10.1",
     "folium>=0.18.0",
-    "geopandas>=0.13.2",
+    "geopandas>=0.14.4",
     "pandas>=2.0.3",
     "streamlit>=1.40.1",
     "streamlit-folium>=0.22.1",
