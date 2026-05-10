@@ -37,7 +37,7 @@ st.write("Selected language:", language)
 spoken_iso = search(language, 'F')
 official_iso = search(language, 'T')
 
-world = gpd.read_file("COUNTRIES.shp")
+world = gpd.read_file("./COUNTRIES.shp")
 world = world[["ISO_A3", "NAME", "languages", "geometry"]]
 world["languages"] = world["languages"].apply(json.loads)
 
