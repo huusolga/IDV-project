@@ -5,7 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.8"
 dependencies = [
-    "fiona>=1.9.6",
+    "fiona==1.9.6",
     "folium>=0.18.0",
     "geopandas>=0.13.2",
     "pandas>=2.0.3",
