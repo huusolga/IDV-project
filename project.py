@@ -32,10 +32,11 @@ st.sidebar.title("World languages on a map")
 
 language = st.sidebar.selectbox("Select a language", lang_to_menu, index=None, placeholder="Select a language...", label_visibility="hidden")
 
-if language == None:
-    st.write("Selected language:", language)
-else:
-    st.write("Selected language:", language, "Hover on top of a country for more information :)")
+
+st.write("Selected language:", language)
+if language != None:
+    st.write("Hover on top of a country for more information :)")
+    
 
 spoken_iso = search(language, 'F')
 official_iso = search(language, 'T')
