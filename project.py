@@ -96,7 +96,7 @@ legend_html = """
     <div style="margin-top: 15px;">
         <span style="
             background: #82a6e0;
-            border: 2px solid #3B5181;
+            border: 4px solid #3B5181;
             opacity: 0.7;
             display: inline-block;
             width: 23px;
